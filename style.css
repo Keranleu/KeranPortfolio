@@ -1,0 +1,205 @@
+:root{
+    --neutural: #232946;
+    --base-100:#fffffe;
+    --neutural-foucs: #121629;
+    --accent: #eebbc3;
+}
+
+
+#nav-bar {
+    display: flex;
+    background-color: var(--neutural);
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 23px;
+    border-bottom: 1px solid var(--neutural-foucs);
+}
+
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: var(--neutural);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h3 {
+    font-family: cursive
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    font-family: serif;
+}
+
+.nav-links a {
+    text-decoration: none;
+    padding: 0 25px;
+    color: var(--base-100);
+    font-family: "IM Fell French Canon", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav-links a:hover {
+    color: yellow;
+    text-decoration: underline;
+    font-family: "IM Fell French Canon", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+section {
+    padding: 70px 0;
+    min-height: 100vh;
+
+
+}
+
+#welcome-section {
+    background-color: var(--neutural);
+    color: var(--base-100);
+    display: flex;
+    flex-direction: column;
+
+}
+
+#welcome-section h1 {
+    margin-top: 30vh;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#welcome-section h3 {
+    color: var(--accent);
+    font-family: "IM Fell French Canon", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#projects h1 {
+    color: var(--base-100);
+    margin-top: 30vh;
+    font-family: sans-serif;
+    padding: 10px 10px;
+}
+
+#about h1, p, li {
+    color: var(--base-100);
+    padding: 0 20px;
+    list-style: none;
+    font-family: sans-serif;
+
+}
+
+#about h1 {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 17vh;
+    
+}
+
+#about p, li{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--base-100);
+    font-family: "IM Fell French Canon", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+    font-family: "IM Fell French Canon", serif;
+    font-weight: 400;
+    font-style: italic;
+
+    transform: translateY(10px);
+}
+
+
+#about i {
+    color: #fffffe;
+    font-size: 20px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1000px;
+
+}
+
+#programs i {
+    padding: 10px 10px;
+}
+
+#contacts {
+    background-color: var(--neutural);
+    color: var(--base-100);
+    font-family: "IM Fell French Canon", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#contacts h1 {
+    margin-top: 300px;
+}
+
+#contacts .socials {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin-top: 30px;
+    justify-content: space-around;
+    margin: auto;
+    text-decoration: none;
+    transition: transform 0.2 ease-in;
+    align-items: center;
+    margin: 20px;
+
+    padding-left: 37vh;
+
+}
+
+#contacts .medias:hover {
+    text-decoration: none;
+    transform: translateY(10px);
+}
+
+
+footer {
+    background-color: var(--neutural);
+    color: var(--base-100);
+    font-family: "IM Fell French Canon", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin-bottom: 10vh;
+
+}
